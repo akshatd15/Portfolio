@@ -28,7 +28,7 @@ with col3:
         st.write(f"[Source Code]({link})")
 
 with col4:
-    for index, row in df[10:].iterrows():
+    for index, row in df[10:20].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         img = row["image"]
