@@ -3,6 +3,7 @@ Todo App;A distraction-free web app to help you focus on creating and completing
 Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://github.com/akshatd15/Portfolio;2.png
 PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;https://github.com/akshatd15/pdf_template;3.png
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/akshatd15/pdf_invoice;4.png
+Weather Forecast Data App;A web app that show the temperature and sky for the upcomping 5 days.;https://github.com/akshatd15/weather_forecast_data_app;21.jpg
 Daily News ;Gets data from a news API and send news through email.;https://github.com/akshatd15/news_site;5.png
 Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/akshatd15/weather_api;6.png
 Online Exam Management;Creating a complete database for a school or university and making a mail system with the exam link to the registered emails of students.;https://github.com/akshatd15/Online-exam-management;18.png

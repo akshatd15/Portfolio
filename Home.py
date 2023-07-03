@@ -20,7 +20,7 @@ df = pandas.read_csv("data.csv",sep=";")
 
 
 with col3:
-    for index, row in df[1:4].iterrows():
+    for index, row in df[1:5].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         img = row["image"]
