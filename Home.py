@@ -9,11 +9,15 @@ with col1:
 
 with col2:
     st.title("Akshat Baliyan")
-    content = """Hi, I am Akshat Baliyan! I am a python programmer , a ML engineer and an AI engineer 
+    content = """Hi, I am Akshat Baliyan! I am a advanced python programmer , currently leaning ML 
+    and pursuing to be an AI engineer!
     """
     st.info(content)
 
+
+st.write("")
 st.write("Below you can find some of the appsI have built in Python. Feel free to contact me!")
+st.write("")
 
 col3, empty_col, col4 = st.columns([2,1,2])
 df = pandas.read_csv("data.csv",sep=";")
@@ -29,7 +33,7 @@ with col3:
         st.write(f"[Source Code]({link})")
 
 with col4:
-    for index, row in df[4:7].iterrows():
+    for index, row in df[5:8].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         img = row["image"]
@@ -40,17 +44,13 @@ with col4:
 col5, empty_col_2, col6 = st.columns([2,1,2])
 
 
-st.markdown("""
-    <style>
-    [data-testid=column]:nth-of-type(1) [data-testid=stVerticalBlock]{
-        gap: 0rem;
-    }
-    </style>
-    """,unsafe_allow_html=True)
+st.write("")
+st.write("")
+st.write("")
 
 with col5:
     st.header("Ongoing")
-    for index, row in df[7:8].iterrows():
+    for index, row in df[8:9].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         img = row["image"]
