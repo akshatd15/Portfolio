@@ -1,6 +1,13 @@
 import streamlit as st
 import pandas
 
+st.session_state['answer'] = 'NLKnaP/ab5Tdo5OITHuNwWt6mMQG4XIVOEbHhAdhZpg'
+
+if st.session_state['answer'] in realans:
+    answerStat = "correct"
+elif st.session_state['answer'] not in realans:
+    answerStat = "incorrect"
+
 st.set_page_config(layout="wide")
 
 col1, col2 = st.columns(2)
