@@ -5,6 +5,8 @@ PDF Templates;A script that generates PDF templates of multiple pages given some
 PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;https://github.com/akshatd15/pdf_invoice;4.png
 Daily News ;Gets data from a news API and send news through email.;https://github.com/akshatd15/news_site;5.png
 Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;https://github.com/akshatd15/weather_api;6.png
+Online Exam Management;Creating a complete database for a school or university and making a mail system with the exam link to the registered emails of students.;https://github.com/akshatd15/Online-exam-management;18.png
+Automated Tool Booth;Implement the use of RFID sensor tags in the process of toll tax collection in the country by attaching them to each and every vehicle.;https://github.com/akshatd15/Automated-Tool-Booth;automated.jpg
 Download Cleaner;A script that monitors the Downloads folder and deletes old files keeping the folder clean.;https://pythonhow.com;7.png
 Tour Scraper;A program that checks a music band's website and sends an email when there are new tours.;https://pythonhow.com;8.png
 Helper Chatbot;A chatbot that knows about a specific topic and answers questions regarding that topic.;https://pythonhow.com;9.png
