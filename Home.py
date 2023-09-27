@@ -28,7 +28,7 @@ with col3:
         st.header(row["title"])
         st.write(row["description"])
         img = row["image"]
-        st.image(f"images\{img}")
+        st.image(f"images/{img}")
         link=row["url"]
         st.write(f"[Source Code]({link})")
 
@@ -37,7 +37,7 @@ with col4:
         st.header(row["title"])
         st.write(row["description"])
         img = row["image"]
-        st.image(f"images\{img}")
+        st.image(f"images/{img}")
         link=row["url"]
         st.write(f"[Source Code]({link})")
 
@@ -54,6 +54,6 @@ with col5:
         st.header(row["title"])
         st.write(row["description"])
         img = row["image"]
-        st.image(f"images\{img}")
+        st.image(f"images/{img}")
         link=row["url"]
         st.write(f"[Source Code]({link})")
