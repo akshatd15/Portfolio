@@ -33,7 +33,7 @@ with col3:
         st.write(f"[Source Code]({link})")
 
 with col4:
-    for index, row in df[5:8].iterrows():
+    for index, row in df[5:9].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         img = row["image"]
@@ -50,7 +50,7 @@ st.write("")
 
 with col5:
     st.header("Ongoing")
-    for index, row in df[8:9].iterrows():
+    for index, row in df[9:10].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         img = row["image"]
