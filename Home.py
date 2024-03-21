@@ -41,6 +41,7 @@ with col4:
         link=row["url"]
         st.write(f"[Source Code]({link})")
 
+st.header("Ongoing")
 col5, empty_col_2, col6 = st.columns([2,1,2])
 
 
@@ -48,9 +49,20 @@ st.write("")
 st.write("")
 st.write("")
 
+
+
 with col5:
-    st.header("Ongoing")
+
     for index, row in df[9:10].iterrows():
+        st.header(row["title"])
+        st.write(row["description"])
+        img = row["image"]
+        st.image(f"images/{img}")
+        link=row["url"]
+        st.write(f"[Source Code]({link})")
+
+with col6:
+    for index, row in df[10:11].iterrows():
         st.header(row["title"])
         st.write(row["description"])
         img = row["image"]
